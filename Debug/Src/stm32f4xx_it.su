@@ -1,0 +1,3 @@
+stm32f4xx_it.c:100:6:USART2_IRQHandler	16	static
+stm32f4xx_it.c:127:6:TIM6_DAC_IRQHandler	0	static
+stm32f4xx_it.c:141:6:TIM7_IRQHandler	8	static

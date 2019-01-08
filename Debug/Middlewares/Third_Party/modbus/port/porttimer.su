@@ -1,0 +1,3 @@
+porttimer.c:39:1:xMBPortTimersInit	24	static
+porttimer.c:67:1:vMBPortTimersEnable	0	static
+porttimer.c:75:1:vMBPortTimersDisable	0	static

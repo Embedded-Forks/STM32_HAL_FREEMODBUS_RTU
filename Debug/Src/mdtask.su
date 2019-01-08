@@ -1,0 +1,5 @@
+mdtask.c:16:6:ModbusRTUTask	16	static
+mdtask.c:38:1:eMBRegInputCB	8	static
+mdtask.c:69:1:eMBRegHoldingCB	0	static
+mdtask.c:77:1:eMBRegCoilsCB	0	static
+mdtask.c:84:1:eMBRegDiscreteCB	0	static

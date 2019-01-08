@@ -4,6 +4,9 @@
 #include "mb.h"
 #include "mbport.h"
 
+#include "main.h"
+
+
 #define REG_INPUT_START 1000
 #define REG_INPUT_NREGS 8
 
@@ -24,6 +27,7 @@ void ModbusRTUTask(void const * argument)
   
   eMBErrorCode eStatus = eMBInit( MB_RTU, 1, 3, 19200, MB_PAR_NONE );
   eStatus = eMBEnable();
+  (void)eStatus;
   
   while(1) {
     eMBPoll();           
